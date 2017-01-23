@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $mainOrange;
+}
+
+.wrapper {
+  overflow: hidden;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 940px;
+  margin: 0 auto 0 auto;
+}
+
+.splash {
+  padding: .5em 18px 0 18px;
+  margin: 0 auto 0 auto;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #585b60;
+  text-align: center;
+}
+
+.splash2 {
+  padding: 0 18px 18px 18px;
+  margin: 0 auto 0 auto;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #585b60;
+  text-align: center;
+
+}
+
+.emailus {
+  display: block;
+  width: 337px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  color: #1851ad;
+}
+
+@media (min-width: 800px) {
+
+  .primary-nav--pull-right {
+    float: right;
+  }
+}
+
+
+@media (min-width: 1000px) {
+
+  .splash {
+    padding: 2em 18px 0 18px;
+    margin: 0 auto 0 auto;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    color: #585b60;
+    text-align: center;
+  }
+
+  .splash2 {
+    padding: 0 18px 0 18px;
+    margin: 0 auto 0 auto;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #585b60;
+    text-align: center;
+  }
+
+  .emailus {
+    display: block;
+    width: 537px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    color: #1851ad;
+  }
+}
+
+.photo1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
