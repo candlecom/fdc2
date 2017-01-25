@@ -1,0 +1,11 @@
+/* Equals Large-here */
+
+.top-box {
+  position: relative;
+}
+
+.top-box__text-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
