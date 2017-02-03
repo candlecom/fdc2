@@ -1,20 +1,31 @@
 .row {
 
-  &::after {
+  @mixin clearfix;
 
-    content: "";
-    clear: both;
-    display: table;
+  &--gutters {
+    margin-right: -65px;
   }
 
-  &__4 {
-    float: left;
-    width: 30%;
+  &--gutters > div {
+    padding-right: 65px;
+
   }
 
-  &__8 {
-    float: left;
-    width: 70%;
+  @mixin atMedium {
 
+    &__medium-4 {
+      float: left;
+      width: 30%;
+    }
+
+    &__medium-8 {
+      float: left;
+      width: 70%;
+    }
+
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
   }
 }
