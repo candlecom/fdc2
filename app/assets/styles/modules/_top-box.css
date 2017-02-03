@@ -6,6 +6,7 @@
 
   &__image {
     display: block;
+    padding: 0;
   }
 
   &__text-content {
