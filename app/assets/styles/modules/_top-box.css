@@ -1,9 +1,9 @@
 /* Equals Large-here */
 
 .top-box {
-  border-bottom: 10px solid $mainBlue;
+/*  border-bottom: 10px solid $mainBlue;
   position: relative;
-
+*/
   &__image {
     display: block;
     padding: 0;
@@ -12,10 +12,11 @@
   &__text-content {
     position: absolute;
     top: 20%;
-    transform: translateY(-50%);
+    transform: translateY(10%);
     left: 0;
     width: 100%;
     text-align: center;
+
   }
 
   &__title {

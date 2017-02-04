@@ -480,10 +480,9 @@ a {
 
 /* Equals Large-here */
 
-.top-box {
-  border-bottom: 10px solid #2f5572;
+/*  border-bottom: 10px solid $mainBlue;
   position: relative;
-}
+*/
 
 .top-box__image {
   display: block;
@@ -493,8 +492,8 @@ a {
 .top-box__text-content {
   position: absolute;
   top: 20%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
   left: 0;
   width: 100%;
   text-align: center;
@@ -599,7 +598,7 @@ a {
 }
 
 .page-section--blue {
-  background-color: #2f5572;
+  background-color: #95E8E4;
   color: #FFFFFF;
 }
 
